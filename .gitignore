@@ -1,0 +1,5 @@
+server/json/
+server/node_modules
+server/.DS_Store
+.DS_Store
+*pnpm*
