@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "fillerkiller",
+  "version": "1.0.0",
+  "description": "Skip silence in YouTube videos in browser",
+  "icons": {
+    "48": "icons/48.png",
+    "16": "icons/16.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "unlimited_storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://*.youtube.com/watch*",
+    "http://*.youtube.com/watch*",
+    "http://localhost/*"
+  ],
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": [
+        "https://*.youtube.com/*",
+        "https://*.youtube-nocookie.com/embed/*"
+      ],
+      "all_frames": true,
+      "js": [
+        "js/content.js"
+      ]
+    }
+  ],
+  "minimum_chrome_version": "60"
+}
