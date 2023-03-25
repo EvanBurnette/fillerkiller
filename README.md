@@ -8,7 +8,7 @@ YouTube silence skipper browser extension
 
 Silence in education is not just wasteful, it is also boring. Cutting silence intensifies the learning and makes every lecturer seem as quick witted and engaging as the incomparable Robin Williams.
 
-FillerKiller is not available on the chrome store. [Jump Cutter](https://chrome.google.com/webstore/detail/jump-cutter/lmppdpldfpfdlipofacekcfleacbbncp) a better version of this browser extension.
+FillerKiller is not available on the chrome web store. [Jump Cutter](https://chrome.google.com/webstore/detail/jump-cutter/lmppdpldfpfdlipofacekcfleacbbncp) a better version of this browser extension.
 
 FillerKiller was my experiment to see if silence skipping could work in the browser, and it does.
 
@@ -18,11 +18,11 @@ FillerKiller was my experiment to see if silence skipping could work in the brow
 
 1. `cd REPO`
 
+1. `cd server`
+
 1. `npm install`
 
 1. Load unpacked extension in browser
-
-1. `cd server`
 
 1. `node server.js`
 
