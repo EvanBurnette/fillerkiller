@@ -4,7 +4,7 @@ YouTube silence skipper browser extension
 
 ## Motivation
 
-![The famous Carykh video on youtube.](https://www.youtube.com/watch?v=DQ8orIurGxw)
+[The famous Carykh video on youtube.](https://www.youtube.com/watch?v=DQ8orIurGxw)
 
 Silence in education is not just wasteful, it is also boring. Cutting silence intensifies the learning and makes every lecturer seem as quick witted and engaging as the incomparable Robin Williams.
 
